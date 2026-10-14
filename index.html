@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+
+  <title>Registro de Endoscopía</title>
+
+  <!-- Íconos para navegadores y celulares -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180"
+        href="icono-180.png">
+
+  <meta name="apple-mobile-web-app-title"
+        content="Endoscopía">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- URL de destino -->
+  <script>
+    const URL_APP =
+      "https://script.google.com/macros/s/AKfycbw9zBWpVVskzUQBctUaxK78k9R4WCCOSX9WJekpziYGDsFzc-8d49l23e1E-zBDjuUZ-A/exec";
+
+    window.location.replace(URL_APP);
+  </script>
+</head>
+
+<body>
+  <p>Abriendo Registro de Endoscopía...</p>
+
+  <p>
+    Si no se abre automáticamente,
+    <a id="acceso" href="#">ingresar al sistema</a>.
+  </p>
+
+  <script>
+    document.getElementById("acceso").href = URL_APP;
+  </script>
+</body>
+</html>
